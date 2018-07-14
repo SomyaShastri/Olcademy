@@ -1,0 +1,67 @@
+body{
+	background-image: url("background.jpg");
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	font-family: "Bookman Old Style";
+	margin: 0px;
+	padding: 0px;
+}
+
+pre{
+	font-family: "Berlin Sans FB";
+	font-size: 17.5px;
+}
+
+.padng{
+	padding: 15px;
+}
+
+button{
+	background-color: magenta;
+	color:white;
+	padding: 10px;
+	border-color: magenta;
+	font-size:15px;
+	font-weight: bold;
+}
+
+button:hover{
+	text-decoration: underline;
+	color: #2e2e1f;
+	font-weight: bold;
+}
+
+textarea{
+	border-color: gray;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: "Berlin Sans FB";
+}
+
+.card:hover{
+    box-shadow: 0 14px 18px 0 rgba(0, 184, 230, 0.8), 0 16px 30px 0 rgba(0, 184, 230, 0.5);
+  }
+
+.jumbotron{
+ 	margin: 0px;
+  	color: white;
+  	background-color: #666666;
+  	padding:5px 180px;
+  	overflow: auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    margin: 5px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    color: black;
+    border-radius: 20%
+}
+.fa:hover {
+    opacity: 0.5;
+}

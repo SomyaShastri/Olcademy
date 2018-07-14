@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Discussion Forum</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript">
+    function electric(){
+      window.open("electric.html","_self");
+    }
+    function mens(){
+      window.open("mens_wear.html","_self");
+    }
+    function womens(){
+      window.open("womens_wear.html","_self");
+    }
+    function homeapp(){
+      window.open("home_appliances.html","_self");
+    }
+  </script>
+</head>
+<body>
+	<div class="padng">
+	<img src="logo.png" width="20%" height="10%" style="float:left"/>
+	<h1><center style="color: #666666;">Clear out all your doubts here...</center><hr></h1><br><br>
+	<span style="font-size: 20px;">Select your product type:</span><br><br>
+	<div class="pad card-deck">
+    <div class="card"  onclick="electric()">
+      <div class="card-body text-center">
+        <img class="card-img-bottom cardimg img-responsive" src="electric.jpg"><br><br>
+      	<p class="card-text">Electronic gadgets</p>
+      </div>
+    </div>
+    <div class="card" onclick="mens()">
+      <div class="card-body text-center">
+        
+        <img class="card-img-bottom cardimg img-responsive" src="mens.jpg"><br><br>
+        <p class="card-text">Mens Wear</p>
+      </div>
+    </div>
+    <div class="card" onclick="womens()">
+      <div class="card-body text-center">
+        <img class="card-img-bottom cardimg img-responsive" src="womens.jpg"><br><br>
+        <p class="card-text">Womens wear</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body text-center"  onclick="homeapp()">
+        <img class="card-img-bottom cardimg img-responsive" src="homeapp.jpg"><br><br>
+        <p class="card-text">Home Appliance</p>
+      </div>
+    </div>  
+  </div>
+  <br>
+</div><br><br><br>
+<div class="jumbotron text-center"><br>
+  <span style="float:left; font-size: 20px;">&copy; Olcademy</span>
+		<span style="float:right">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-youtube"></a>
+		</span>
+</div>
+</body>
+</html>
